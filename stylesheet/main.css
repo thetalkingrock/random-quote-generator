@@ -1,0 +1,27 @@
+body{
+	background-color: #00004d;
+}
+
+#quote-container{
+	border: .5px solid white;
+	border-radius: 2%;
+	width: 50%;
+	color: #00004d;
+	background-color: white;
+	margin-top: 15%;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+small{
+	display: inline-block;
+	padding-top: 1%;
+	color: white;
+}
