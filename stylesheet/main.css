@@ -6,8 +6,7 @@ body{
 	font-family: "Lato", "Courier New", Verdana, "Times New Roman", Helvetica, Arial;
 	border: 2px solid white;
 	border-radius: 5px;
-	width: 50%;
-	height: 40%;
+	padding: 25px 25px;
 	color: #00004d;
 	background-color: white;
 	margin-top: 15%;
@@ -30,4 +29,15 @@ small{
 	display: inline-block;
 	padding-top: 1%;
 	color: white;
+}
+
+#button-container i{
+	display:inline-block;
+	color: #333333;
+	/*font-size: 30px;*/
+	padding: 2px;
+}
+
+#button-container a:hover{
+	opacity: 0.9;
 }
