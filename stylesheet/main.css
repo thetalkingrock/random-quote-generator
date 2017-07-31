@@ -1,14 +1,20 @@
 body{
-	background-color: #00004d;
+	background-color: #333333;
 }
 
 #quote-container{
-	border: .5px solid white;
-	border-radius: 2%;
+	font-family: "Lato", "Courier New", Verdana, "Times New Roman", Helvetica, Arial;
+	border: 2px solid white;
+	border-radius: 5px;
 	width: 50%;
+	height: 40%;
 	color: #00004d;
 	background-color: white;
 	margin-top: 15%;
+}
+
+#quotation-mark{
+	font-size: 100px;
 }
 
 a{
