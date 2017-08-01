@@ -45,6 +45,8 @@ small{
 	margin-top: auto;
 	position: relative;
 	float: right;
+	border: 0;
+	padding: 12px;
 }
 
 #button-container a:hover, button:hover{
