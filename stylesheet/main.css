@@ -2,6 +2,10 @@ body{
 	background-color: #333333;
 }
 
+i{
+	color: #333333;
+}
+
 #quote-container{
 	font-family: "Lato", "Courier New", Verdana, "Times New Roman", Helvetica, Arial;
 	border: 2px solid white;
@@ -38,7 +42,7 @@ small{
 
 #button-container i{
 	display:inline-block;
-	color: #333333;
+	/*color: #333333;*/
 	padding: 2px;
 	position: relative;
 	float: left;
