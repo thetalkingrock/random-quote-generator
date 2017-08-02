@@ -19,23 +19,23 @@
 		<script src="script/quotes.js" type="text/JavaScript"></script>
 	</head>
 	
-	<body class="color-change-background">
+	<body class="color-change">
 		
 		<div class="container-fluid text-center">
 			<div class="row">
 				<div id="quote-container" class="col-xs-6 col-xs-offset-3">
-					<i class="fa fa-quote-left fa-3x color-change"></i><q id="quote" class="color-change"></q>
+					<span id="quote" class="fader color-change"><i class="fa fa-quote-left fa-3x"></i><q id="text"></q></span>
 					<br>
-					<cite class="color-change">- </cite>
+					<cite id="name" class="fader color-change">- </cite>
 					<br>
 					<div id="button-container">
-						<a href="#"><i class="fa fa-twitter-square fa-3x color-change"></i></a>
-						<a href="#"><i class="fa fa-tumblr-square fa-3x color-change"></i></a>
-						<button type="button" class="color-change-background btn btn-primary">New quote</button>
+						<a href="#"><i class="social-link fa fa-twitter-square fa-3x color-change"></i></a>
+						<a href="#"><i class="social-link fa fa-tumblr-square fa-3x color-change"></i></a>
+						<button type="button" class="color-change btn btn-primary">New quote</button>
 					</div>	
 				</div>
 			</div>	
-			<small>by <a href="https://github.com/thetalkingrock">thetalkingrock</a></small>
+			<small id="github-link">by <a href="https://github.com/thetalkingrock">thetalkingrock</a></small>
 		</div>
 		
 	</body>

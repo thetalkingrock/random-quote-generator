@@ -35,7 +35,7 @@ a:hover{
 	color: white;
 }
 
-small{
+#github-link{
 	display: inline-block;
 	padding-top: 1%;
 	color: white;
@@ -51,7 +51,8 @@ small{
 
 #button-container button{
 	display:inline-block;
-	background-color: #333333;
+    background-color: #333333;
+    color: white !important;
 	margin-top: auto;
 	position: relative;
 	float: right;
@@ -69,4 +70,16 @@ q:before{
 
 q:after{
 	content: none;
+}
+
+#text{
+	font-size: 30px;
+}
+
+#name{
+	font-size: 15px;
+}
+
+.social-link{
+	background-color: inherit !important;
 }

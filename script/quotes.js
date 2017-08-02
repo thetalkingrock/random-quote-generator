@@ -13,7 +13,7 @@ $(document).ready(function(){
 					color = "#FF4136";
 					break;
 				case 2:
-					color = "#FF851B";
+					color = "rgb(155, 89, 182)";
 					break;
 				case 3:
 					color = "#0074D9";
@@ -90,14 +90,26 @@ $(document).ready(function(){
 				default:
 					break;					
 			}
-			
+			/*
+			$("#quote", "#name").fadeOut();
 			//set colors
 			$(".color-change-background").animate({
 				backgroundColor: color,
 			}, 1000);
 			$(".color-change").animate({
 				color: color,
-			}, 1000);
+			}, 1000, function () {
+				$("#quote").text(" " + quote);
+				$("#name").text("- " + name);
+			});
+			*/
+			
+			$(".fader").fadeOut(function () {
+				$(".color-change").animate({
+					backgroundColor: color,
+					color: color
+				}, 1000);
+			});
 		}
 		state = !state;
 	})
