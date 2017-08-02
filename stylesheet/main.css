@@ -62,3 +62,11 @@ small{
 #button-container a:hover, button:hover{
 	opacity: 0.9;
 }
+
+q:before{
+	content: none;
+}
+
+q:after{
+	content: none;
+}
