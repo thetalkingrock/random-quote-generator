@@ -2,8 +2,12 @@ body{
 	background-color: #333333;
 }
 
-i{
+.fa{
 	color: #333333;
+}
+
+cite, span, i, #text{
+	background-color: white !important;
 }
 
 #quote-container{

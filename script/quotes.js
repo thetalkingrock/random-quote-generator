@@ -108,7 +108,11 @@ $(document).ready(function(){
 				$(".color-change").animate({
 					backgroundColor: color,
 					color: color
-				}, 1000);
+				}, 1000, function () {
+					$("#text").text(" " + quote);
+					$("#name").text("- " + name);
+					$(".fader").fadeIn();
+				});
 			});
 		}
 		state = !state;
