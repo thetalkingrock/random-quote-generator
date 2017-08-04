@@ -104,14 +104,14 @@ $(document).ready(function(){
 			});
 			*/
 			
-			$(".fader").fadeOut(function () {
+			$("#fader").fadeTo(500, 0, function () {
 				$(".color-change").animate({
 					backgroundColor: color,
 					color: color
-				}, 1000, function () {
+				}, 500, function () {
 					$("#text").text(" " + quote);
 					$("#name").text("- " + name);
-					$(".fader").fadeIn();
+					$("#fader").fadeTo(500, 1.0);
 				});
 			});
 		}
