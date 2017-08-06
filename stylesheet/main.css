@@ -14,9 +14,7 @@ cite, span, i, #text{
 	font-family: "Lato", "Courier New", Verdana, "Times New Roman", Helvetica, Arial;
 	border: 2px solid white;
 	border-radius: 5px;
-	/*padding: 15px 15px;*/
 	padding: 2.75% 2.75%;
-	/*color: #00004d;*/
 	color: #333333;
 	background-color: white;
 	margin-top: 12%;
@@ -47,7 +45,6 @@ a:hover{
 
 #button-container i{
 	display:inline-block;
-	/*color: #333333;*/
 	padding: 2px;
 	position: relative;
 	float: left;
@@ -68,11 +65,7 @@ a:hover{
 	opacity: 0.9;
 }
 
-q:before{
-	content: none;
-}
-
-q:after{
+q:before, q:after{
 	content: none;
 }
 
