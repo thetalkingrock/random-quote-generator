@@ -2,8 +2,9 @@ $(document).ready(function(){
 	
 	var initalHrefValTwitter = $("#twitter-link").attr("href");
 	
-	var state = true;
-	$("button").on("click", function () {
+	var state = true;	
+		
+	function changeQuoteAndBackground() {
 		if(state){
 			state = !state;
 			//get random number between 1 and 10
@@ -116,19 +117,7 @@ $(document).ready(function(){
 				default:
 					break;					
 			}
-			/*
-			$("#quote", "#name").fadeOut();
-			//set colors
-			$(".color-change-background").animate({
-				backgroundColor: color,
-			}, 1000);
-			$(".color-change").animate({
-				color: color,
-			}, 1000, function () {
-				$("#quote").text(" " + quote);
-				$("#name").text("- " + name);
-			});
-			*/
+			
 			hrefValTumblr += "&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button";
 			
 			$("#twitter-link").attr("href", initalHrefValTwitter);
@@ -147,5 +136,9 @@ $(document).ready(function(){
 			});
 		}
 		state = !state;
-	})
+	}
+	
+	changeQuoteAndBackground();
+	
+	$("button").on("click", changeQuoteAndBackground);
 });
